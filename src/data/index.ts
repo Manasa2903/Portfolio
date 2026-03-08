@@ -1,4 +1,11 @@
-import type { Project, Skill, Experience, Certification, AIProject } from "../types";
+import type {
+  Project,
+  Skill,
+  Experience,
+  Certification,
+  AIProject,
+  Award,
+} from "../types";
 
 export const projects: Project[] = [
   {
@@ -485,6 +492,45 @@ export const aiProjects: AIProject[] = [
     tags: ["MCP", "AI Architecture", "Tool Use", "Context"],
     status: "exploration",
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEVHcEwAAAAAAAAAAAAAAAAnJyd3d3ddXV3Dw8P///+Kiorb29uZmZn29vYPDw/t7e2lpaUyMjJPT0/W1tZcBe60AAAABXRSTlMALsj/x4sesyUAAACzSURBVHgBddOFAcQgEARAePRw6b/WuLAfT4DBhTH+E6+X5ItBitLmjnAG5Swtl7vKstE8eRci6TPOwOzyTRQBB8tFWAIcjMKCxSXA04qodPWKvVgxOpI+Ec1tvcoXorWt4RP/jYzoJ76Yob6jWs2CLZ869JY8mhE3rn2IYAOuVQc0mAQnhLkMsRLFDDagSDZHW8EWhAsMEe0fPTXxiZ30N1YCZfJfh23NuEAdSq5bXn4ehxk+XxCYu+Sq9wAAAABJRU5ErkJggg==",
+  },
+];
+
+export const awards: Award[] = [
+  {
+    id: 1,
+    title: "Highest of High Fives",
+    issuer: "Veltris",
+    date: "Mar 2026",
+    description:
+      "Received Veltris Highest of High Fives award for consistent leadership, improving code quality, client confidence, and delivering complex features successfully.",
+    icon: "🙌",
+  },
+  {
+    id: 2,
+    title: "Customer Satisfaction Award",
+    issuer: "Veltris",
+    date: "Oct 2024",
+    description:
+      "Recognized for outstanding client satisfaction and delivering high-quality solutions that exceeded expectations.",
+    icon: "⭐",
+  },
+  {
+    id: 3,
+    title: "Shining Star",
+    issuer: "West Agile Labs",
+    date: "Aug 2023",
+    description:
+      "In recognition and appreciation of consistent diligence, unwavering dedication, timely delivery, and exemplary performance. This award reflects a strong commitment to excellence, ownership of responsibilities, and the ability to consistently deliver high-quality outcomes while collaborating effectively with the team.",
+    icon: "🌟",
+  },
+  {
+    id: 4,
+    title: "Shining Star",
+    issuer: "West Agile Labs",
+    date: "Feb 2022",
+    description:
+      "Recognized for exceptional dedication and consistent high-quality contributions to team success.",
+    icon: "🌟",
   },
 ];
 

@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import AIExperiments from "./components/AIExperiments";
 import Experience from "./components/Experience";
 import Certifications from "./components/Certifications";
+import Awards from "./components/Awards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -35,6 +36,7 @@ export default function App() {
             <AIExperiments />
             <Experience />
             <Certifications />
+            <Awards />
             <Contact />
           </main>
           <Footer />

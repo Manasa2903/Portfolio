@@ -48,3 +48,12 @@ export interface AIProject {
   status: "completed" | "in-progress" | "exploration";
   icon: string;
 }
+
+export interface Award {
+  id: number;
+  title: string;
+  issuer: string;
+  date: string;
+  description: string;
+  icon: string;
+}
