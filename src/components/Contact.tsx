@@ -45,6 +45,13 @@ const socialLinks = [
     color: "#4285F4",
     handle: "Skills Boost",
   },
+  {
+    label: "Medium",
+    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAB4eHiqqqqfn58bGxvKysr///+NjY0rKyvW1tbp6elfX1+0tLTBwcFBQUE7Ozvl0eruAAAAB3RSTlMAS8D5/0yZSQe+BQAAANZJREFUeAF901ESgyAMBFDUaAKigNr7X7UroSO2lf2KPAMDojGm6wf6ydCPBpnoIRP66DGd6Z+xN8MzDoYaUWSx1jrSsLXCFdLsvV+0XFEGqlEwErVcUModT006iXzjtgJnXb4gh+2DboeuZ+O6ZRTPV2cCWqIjUEb2gS6kAEWRFIOXGhnIFCmjw3ZELnQRA8ui+MKLVee114Jyw6PsvkwbK9QzdAUJa8w3THgumA8xFgyJED3AkM9qhyqySG7VWj8Zz+hspHlNmheseTWblxoZ//8O6HsD4HoTKLPZkdQAAAAASUVORK5CYII=",
+    url: "https://medium.com/@bmanasa71",
+    color: "#3465A7",
+    handle: "@bmanasa71",
+  },
 ];
 
 const EMAILJS_SERVICE_ID = "service_0usto1n";
